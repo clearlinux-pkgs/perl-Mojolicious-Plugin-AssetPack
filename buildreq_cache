@@ -1,5 +1,5 @@
-2.04
+2.05
 perl(File::Which)
 perl(Mojo::Base)
-perl(Mojolicious)
 perl(IPC::Run3)
+perl(Mojolicious)
