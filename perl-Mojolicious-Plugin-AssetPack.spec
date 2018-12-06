@@ -4,7 +4,7 @@
 #
 Name     : perl-Mojolicious-Plugin-AssetPack
 Version  : 2.06
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-2.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-2.06.tar.gz
 Summary  : 'Compress and convert css, less, sass, javascript and coffeescript files'
