@@ -4,7 +4,7 @@
 #
 Name     : perl-Mojolicious-Plugin-AssetPack
 Version  : 2.08
-Release  : 15
+Release  : 16
 URL      : https://cpan.metacpan.org/authors/id/J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-2.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-2.08.tar.gz
 Summary  : 'Compress and convert css, less, sass, javascript and coffeescript files'
@@ -107,29 +107,29 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Asset.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Asset/Null.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Guides/Cookbook.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Guides/Developing.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Guides/Tutorial.pod
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/CoffeeScript.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Combine.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Css.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Favicon.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Fetch.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/JavaScript.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Jpeg.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Less.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Png.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Riotjs.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/RollupJs.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Sass.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/TypeScript.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/Vuejs.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/require.js
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/riot.js
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Pipe/typescript.js
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Store.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Mojolicious/Plugin/AssetPack/Util.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Asset.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Asset/Null.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Guides/Cookbook.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Guides/Developing.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Guides/Tutorial.pod
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/CoffeeScript.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Combine.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Css.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Favicon.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Fetch.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/JavaScript.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Jpeg.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Less.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Png.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Riotjs.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/RollupJs.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Sass.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/TypeScript.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/Vuejs.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/require.js
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/riot.js
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Pipe/typescript.js
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Store.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Mojolicious/Plugin/AssetPack/Util.pm
