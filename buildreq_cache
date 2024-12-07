@@ -1,4 +1,5 @@
-2.14
+2.15
+perl(Digest::MD5)
 perl(File::Which)
 perl(IPC::Run3)
 perl(Mojo::Base)
